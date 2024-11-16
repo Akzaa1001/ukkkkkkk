@@ -1,0 +1,152 @@
+/* reset */
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+header {
+    background-color: white;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    display: inline;
+}
+
+.btn-kami {
+    background-color: rgb(241, 22, 22);
+    color: rgb(250, 250, 250);
+    width: auto;
+    height: 5%;
+}
+/* hero section */
+#Hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px;
+    background-color: #12e712;
+}
+.gambar-atas {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 1%;
+    border: 1px solid black;
+    position: relative;
+    left: 100%;
+}
+
+.gambar-text {
+    position: relative;
+    right: 65%;
+}
+.hero-content {
+    max-width: 2500px;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+.btn-hero {
+    background-color: rgb(29, 109, 228);
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+    position: relative;
+    left: 30%;
+    top: 10%;
+}
+/* product section */
+.product h1 {
+    padding: 40px 0 0 40px;
+    position: relative;
+    left: 50%;
+    background-color: white;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.product-melon {
+    width: 100%;
+    border-radius: 30px;
+}
+.product {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+/* testimonial */
+#testimonial {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+} 
+
+.testimonials h2 {
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.testimonial img {
+    width: 100%;
+    height: auto;
+    border-radius: 30%;
+    display: center;
+    align-items: center;
+}
